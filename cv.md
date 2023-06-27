@@ -69,3 +69,20 @@ function maxTriSum(numbers) {
 ### University:
 - Volgograd State Technical University
 - Volgograd State University of Architecture and Civil Engineering
+
+### Professional development, courses:
+
+| Course name                                                           | Organization                                                              | Year |
+|-----------------------------------------------------------------------|---------------------------------------------------------------------------|------|
+| JavaScript from scratch - Language basics and practice for beginners  | [Udemy](https://www.udemy.com/ "Udemy")                                   | 2023 |
+| Command Line Basics                                                   | [Hexlet](https://ru.hexlet.io "Hexlet")                                   | 2022 |
+| Basic administration of Linux servers                                 | [Training Center "Slurm"](https://edu.slurm.io/ "Training Center Slurm")  | 2022 |
+| Basics of site layout                                                 | [Netology](https://netology.ru/  "Netology")                              | 2022 |
+| JavaScript Course: Learning JS                                        | [CodeBasics](https://code-basics.com/ "CodeBasics")                       | 2022 |
+| HTML course: html layout training                                     | [CodeBasics](https://code-basics.com/ "CodeBasics")                       | 2022 |
+| CSS Course: Online training                                           | [CodeBasics](https://code-basics.com/ "CodeBasics")                       | 2022 |
+| The course "PHP: Introduction to the profession"                      | [Programming Academy "ProfIT"](https://pr-of-it.ru/ "ProfIT")             | 2019 |
+
+## English
+- **Russian** - native speaker.
+- **English** - A2 (Pre-intermediate)
