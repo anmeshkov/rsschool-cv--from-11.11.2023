@@ -1,0 +1,14 @@
+/* Grid
+   ========================================================================== */
+.container {
+  max-width: $page-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $page-padding;
+  padding-right: $page-padding;
+}
+
+// .grid-2-column {
+//   display: flex;
+//   column-gap: 136px;
+// }

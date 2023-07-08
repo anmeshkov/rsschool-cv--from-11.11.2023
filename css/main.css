@@ -7,6 +7,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -341,4 +342,119 @@ template {
 
 * {
   box-sizing: border-box;
+}
+
+/* Variables
+   ========================================================================== */
+/* Grid
+   ========================================================================== */
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Fonts
+   ========================================================================== */
+body {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+h1 {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+a {
+  color: #218bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Icons
+   ========================================================================== */
+.icon {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon-location {
+  background-image: url("../../assets/svg/location.svg");
+  margin-right: 16px;
+}
+
+.header {
+  padding: 15px 0;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+  column-gap: 20px;
+}
+.nav__link {
+  text-decoration: none;
+}
+
+/* Resume
+   ========================================================================== */
+.resume__wrapper {
+  padding: 45px 0;
+  display: flex;
+}
+.resume__avatar {
+  width: 264px;
+  height: 264px;
+  border-radius: 264px;
+  background: url("../../assets/img/me.jpg"), lightgray 50%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.resume__content {
+  min-height: 264px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content__title {
+  margin: 0 0 16px;
+}
+.content__subtitle {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 36px;
+  margin: 0 0 32px;
+}
+.content__location {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */

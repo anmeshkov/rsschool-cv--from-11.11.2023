@@ -1,0 +1,29 @@
+/* Fonts
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+
+body {
+  font-family: $font-main;
+  color: $color-main;
+  font-size: $font-size-main;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+h1 {
+  color: $color-main;
+  font-family: $font-main;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+a {
+  color: $color-links;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+/* Icons
+   ========================================================================== */
+.icon {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon-location {
+  background-image: url('../../assets/svg/location.svg');
+  margin-right: 16px;
+}
