@@ -349,11 +349,30 @@ template {
 /* Grid
    ========================================================================== */
 .container {
-  max-width: 960px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+section {
+  border-bottom: 1px solid #CCCCCC;
+  padding: 45px 0;
+}
+
+.grid-2-column {
+  display: flex;
+  column-gap: 92px;
+}
+
+.left-column {
+  max-width: 344px;
+  width: 100%;
+}
+
+.rightn-column {
+  width: 100%;
 }
 
 /* Fonts
@@ -376,8 +395,22 @@ h1 {
   line-height: 52px;
 }
 
+h4 {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.section__title {
+  margin: 0;
+}
+
 a {
   color: #218bff;
+  text-decoration: none;
 }
 
 a:hover {
@@ -420,13 +453,10 @@ a:hover {
   text-decoration: none;
 }
 
-/* Resume
+/* Avatar
    ========================================================================== */
-.resume__wrapper {
-  padding: 45px 0;
-  display: flex;
-}
-.resume__avatar {
+.avatar__image {
+  margin: 0 auto;
   width: 264px;
   height: 264px;
   border-radius: 264px;
@@ -435,9 +465,11 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* Resume
+   ========================================================================== */
 .resume__content {
   min-height: 264px;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

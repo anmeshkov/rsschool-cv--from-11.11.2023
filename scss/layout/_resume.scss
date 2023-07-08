@@ -2,37 +2,13 @@
    ========================================================================== */
 .resume {
 
-  &__wrapper {
-    padding: 45px 0;
-    display: flex;
-  }
-
-  // .resume__avatar
-  &__avatar {
-    width: 264px;
-    height: 264px;
-    border-radius: 264px;
-    background: url('../../assets/img/me.jpg'), lightgray 50%;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
   // .resume__content
   &__content {
     min-height: 264px;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-}
-
-.avatar {
-
-
-  // .avatar__img
-  &__img {}
 }
 
 .content {

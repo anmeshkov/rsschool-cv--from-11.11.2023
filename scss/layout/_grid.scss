@@ -8,7 +8,21 @@
   padding-right: $page-padding;
 }
 
-// .grid-2-column {
-//   display: flex;
-//   column-gap: 136px;
-// }
+section {
+  border-bottom: 1px solid $color-second;
+  padding: 45px 0;
+}
+
+.grid-2-column {
+  display: flex;
+  column-gap: 92px;
+}
+
+.left-column {
+  max-width: 344px;
+  width: 100%;
+}
+
+.rightn-column {
+  width: 100%;
+}
