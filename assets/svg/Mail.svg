@@ -1,0 +1,6 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mail">
+<rect id="Box" x="4" y="7" width="24" height="18" rx="2" stroke="#464646" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Line" d="M8 11L16 17L24 11" stroke="#464646" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

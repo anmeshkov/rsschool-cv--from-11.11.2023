@@ -1,0 +1,35 @@
+/* Resume
+   ========================================================================== */
+.resume {
+
+  // .resume__content
+  &__content {
+    min-height: 264px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.content {
+  // .content__title
+  &__title {
+    margin: 0 0 16px;
+  }
+
+  // .content__subtitle
+  &__subtitle {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+    margin: 0 0 32px;
+  }
+
+  // .content__location
+  &__location {
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+  }
+}
