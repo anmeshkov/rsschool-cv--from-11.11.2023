@@ -458,19 +458,19 @@ a:hover::after {
 }
 
 .icon-location {
-  background-image: url("../../assets/svg/location.svg");
+  background-image: url("../assets/svg/location.svg");
 }
 
 .icon-phone {
-  background-image: url("../../assets/svg/Phone.svg");
+  background-image: url("../assets/svg/Phone.svg");
 }
 
 .icon-mail {
-  background-image: url("../../assets/svg/Mail.svg");
+  background-image: url("../assets/svg/Mail.svg");
 }
 
 .icon-web {
-  background-image: url("../../assets/svg/World.svg");
+  background-image: url("../assets/svg/World.svg");
 }
 
 .header {
@@ -502,7 +502,7 @@ a:hover::after {
   width: 264px;
   height: 264px;
   border-radius: 264px;
-  background: url("../../assets/img/me.jpg"), lightgray 50%;
+  background: url("../assets/img/me.jpg"), lightgray 50%;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
