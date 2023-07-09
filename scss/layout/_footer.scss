@@ -1,0 +1,33 @@
+/* Footer
+   ========================================================================== */
+.footer {
+  background: $color-footer;
+  margin-top: 72px;
+  padding: 16px 0;
+}
+
+.rs {
+  &__logo {
+    width: 150px;
+  }
+}
+
+.copytext{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  & p{
+    margin: 0;
+  }
+}
+
+.rsscholl {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+}

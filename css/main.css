@@ -489,4 +489,47 @@ a:hover {
   margin: 0;
   display: inline-flex;
   align-items: center;
+}
+
+/* Education
+   ========================================================================== */
+.education__item span {
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+}
+.education__item span::after {
+  content: " - ";
+}
+
+/* Footer
+   ========================================================================== */
+.footer {
+  background: #f0f0f0;
+  margin-top: 72px;
+  padding: 16px 0;
+}
+
+.rs__logo {
+  width: 150px;
+}
+
+.copytext {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+}
+.copytext p {
+  margin: 0;
+}
+
+.rsscholl {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
 }/*# sourceMappingURL=main.css.map */

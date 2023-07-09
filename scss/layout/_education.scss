@@ -1,0 +1,26 @@
+/* Education
+   ========================================================================== */
+
+.education {
+
+  // .education__list
+  &__list {}
+
+  // .education__item
+  &__item {}
+
+  &__item span {
+    color: $color-main;
+    font-style: normal;
+    font-weight: 500;
+  }
+  &__item span::after {
+    content: ' - ';
+  }
+}
+
+.section {
+
+  // .section__title
+  &__title {}
+}
