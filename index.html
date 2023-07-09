@@ -103,12 +103,13 @@
             of&nbsp;experience as&nbsp;a&nbsp;Technical Support Specialist.
 
             The year 2022 was dedicated to&nbsp;learning Javascript, HTML, CSS. And now I&nbsp;am looking for
-            a&nbsp;team in&nbsp;which&nbsp;I could apply the acquired skills
-
-            About&nbsp;me: love sports and technology.</p>
+            a&nbsp;team in&nbsp;which&nbsp;I could apply the acquired skills.
+            <br>
+            About&nbsp;me: love sports and technology.
+          </p>
         </section>
         <!-- /about -->
-        
+
         <!-- education -->
         <section class="education">
           <h4 class="section__title">Education</h4>
@@ -119,28 +120,97 @@
           </ul>
           <p>Professional development, courses:</p>
           <ul class="education__list">
-            <li class="education__item"><span>Udemy</span>JavaScript from scratch - Language basics and practice for beginners</li>
+            <li class="education__item"><span>The Rolling Scopes</span>JS / FRONT-END. STAGE 0 (in progress)</li>
+            <li class="education__item"><span>Udemy</span>JavaScript from scratch - Language basics and practice for
+              beginners</li>
             <li class="education__item"><span>Hexlet</span>Command Line Basics</li>
             <li class="education__item"><span>Training Center "Slurm"</span>Basic administration of Linux servers</li>
             <li class="education__item"><span>Netology</span>Basics of site layout</li>
             <li class="education__item"><span>CodeBasics</span>JavaScript Course: Learning JS </li>
             <li class="education__item"><span>CodeBasics</span>HTML course: html layout training</li>
             <li class="education__item"><span>CodeBasics</span>CSS Course: Online training</li>
-            <li class="education__item"><span>Programming Academy “ProfIT”</span>The course “PHP: Introduction to the profession”	</li>
+            <li class="education__item"><span>Programming Academy “ProfIT”</span>The course “PHP: Introduction to the
+              profession” </li>
           </ul>
         </section>
         <!-- /education -->
+
+        <!-- code -->
+        <section class="code">
+          <h4 class="section__title">Code examples</h4>
+          <!-- code-item -->
+          <p class="code__text"><a href="https://www.codewars.com/kata/5a5915b8d39ec5aa18000030" target="_blank"
+              rel="noopener noreferrer">1. Find the missing element between two arrays</a></p>
+          <pre class="code__pre">
+<code class="code__wrapper">function findMissing(arr1, arr2) {
+    const arr1Sort = arr1.sort((a, b) => a - b);
+    const arr2Sort = arr2.sort((a, b) => a - b);
+    console.log(arr1Sort);
+    console.log(arr2Sort);
+
+    for (let i = 0; i < arr1Sort.length; i++) {
+        if (arr1Sort[i] != arr2Sort[i]) {
+            return arr1Sort[i];
+        }
+    }
+}</code></pre>
+          <!-- /code-item -->
+
+          <!-- code-item -->
+          <p class="code__text"><a href="https://www.codewars.com/kata/5a5915b8d39ec5aa18000030" target="_blank"
+              rel="noopener noreferrer">2. Find the missing element between two arrays</a></p>
+          <pre class="code__pre">
+<code class="code__wrapper">function maxTriSum(numbers) {
+    const arrayOfNumbers = [...new Set(numbers.sort((a, b) => b - a))];
+    let summ = 0;
+    
+    for (let i = 0; i < 3; i++) {
+        summ += arrayOfNumbers[i];    
+    }
+
+    return summ;
+}</code></pre>
+          <!-- /code-item -->
+        </section>
+        <!-- /code -->
+
+        <!-- projects -->
+        <section class="projects">
+          <h4 class="section__title">Projects</h4>
+          <ul class="list projects__list">
+            <li class="list__item"><a class="list__link" href="https://github.com/anmeshkov/shelter-html-theme"
+                target="_blank" rel="noopener noreferrer" title="Shelter">Shelter</a></li>
+            <li class="list__item"><a class="list__link" href="https://github.com/anmeshkov/virtual-keyboard"
+                target="_blank" rel="noopener noreferrer" title="Virtual Keyboard">Virtual Keyboard</a></li>
+            <li class="list__item"><a class="list__link" href="https://github.com/anmeshkov/cssBayan" target="_blank"
+                rel="noopener noreferrer" title="cssBayan">cssBayan</a></li>
+            <li class="list__item"><a class="list__link" href="https://github.com/anmeshkov/NOEMI_Modern"
+                target="_blank" rel="noopener noreferrer" title="NOEMI Modern">NOEMI Modern</a></li>
+            <li class="list__item"><a class="list__link" href="https://github.com/anmeshkov/habbit-app" target="_blank"
+                rel="noopener noreferrer" title="Habbit App">Habbit App</a></li>
+            <li class="list__item"><a class="list__link" href="https://github.com/anmeshkov/chessboard-js"
+                target="_blank" rel="noopener noreferrer" title="JavaScript Chessboard">JavaScript Chessboard</a></li>
+            <li class="list__item"><a class="list__link" href="https://github.com/anmeshkov/landwind-landing-page"
+                target="_blank" rel="noopener noreferrer" title="Landwind Landing Page">Landwind Landing Page</a></li>
+            <li class="list__item"><a class="list__link" href="https://github.com/anmeshkov/freelancer-landing-page"
+                target="_blank" rel="noopener noreferrer" title="Freelancer Landing Page">Freelancer Landing Page</a>
+            </li>
+            <li class="list__item"><a class="list__link" href="https://github.com/anmeshkov/alivio-landing-page"
+                target="_blank" rel="noopener noreferrer" title="Alivio Landing Page">Alivio Landing Page</a></li>
+          </ul>
+        </section>
+        <!-- /projects -->
       </div>
     </div>
   </main>
   <!-- /main -->
-  
+
   <!-- footer -->
   <footer class="footer">
     <div class="container grid-2-column">
       <div class="left-column">
         <div class="copytext">
-          <p>@Andrew Meshkov 2023</p>
+          <p>© 2023 Andrew Meshkov</p>
           <p><a href="https://github.com/anmeshkov" target="_blank" rel="noopener noreferrer">Github.com</a></p>
         </div>
       </div>
