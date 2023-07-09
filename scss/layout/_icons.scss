@@ -1,0 +1,27 @@
+/* Icons
+   ========================================================================== */
+.icon {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 16px;
+}
+
+.icon-location {
+  background-image: url('../assets/svg/location.svg');
+}
+
+.icon-phone {
+  background-image: url('../assets/svg/Phone.svg');
+}
+.icon-mail {
+  background-image: url('../assets/svg/Mail.svg');
+}
+.icon-web {
+  background-image: url('../assets/svg/World.svg');
+}

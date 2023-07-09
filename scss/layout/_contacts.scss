@@ -1,0 +1,34 @@
+/* Contacts
+   ========================================================================== */
+
+.contacts {
+
+  // .contacts__list
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+
+  // .contacts__item
+  &__item {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  // .contacts__link
+  &__link {}
+}
+
+.section {
+
+  // .section__title
+  &__title {}
+}
+
+.icon {}
+
+.icon-phone {}
+
+.icon-mail {}
+
+.icon-web {}

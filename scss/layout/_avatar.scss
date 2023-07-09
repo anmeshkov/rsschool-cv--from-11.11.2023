@@ -1,0 +1,18 @@
+/* Avatar
+   ========================================================================== */
+.avatar {
+  border-bottom: 1px solid $color-second;
+  padding: 45px 0;
+
+  // .avatar__image
+  &__image {
+    margin: 0 auto ;
+    width: 264px;
+    height: 264px;
+    border-radius: 264px;
+    background: url('../assets/img/me.jpg'), lightgray 50%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
