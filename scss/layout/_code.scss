@@ -1,0 +1,74 @@
+/* Code
+   ========================================================================== */
+
+.code {
+
+  // .code__text
+  &__text {}
+
+  // .code__pre
+  &__pre {
+    border-radius: 10px;
+    padding: 64px 16px 16px 16px;
+    background: $color-code;
+  }
+
+  // .code__wrapper
+  &__wrapper {
+    font-size: 18px;
+  }
+}
+
+// window button
+.code__pre {
+  position: relative;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top: 16px;
+  }
+
+  &::before {
+    border: 1px solid #ee6a5e;
+    background-color: #ee6a5e;
+    left: 16px;
+  }
+
+  &::after {
+    border: 1px solid #f4be4f;
+    background-color: #f4be4f;
+    left: 40px;
+  }
+}
+
+.code__wrapper {
+  &::before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top: 16px;
+    left: 65px;
+    border: 1px solid #61c554;
+    background-color: #61c554;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 48px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #eee;
+  }
+}
