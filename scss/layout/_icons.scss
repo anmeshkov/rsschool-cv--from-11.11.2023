@@ -9,9 +9,19 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin-right: 16px;
 }
 
 .icon-location {
   background-image: url('../../assets/svg/location.svg');
-  margin-right: 16px;
+}
+
+.icon-phone {
+  background-image: url('../../assets/svg/Phone.svg');
+}
+.icon-mail {
+  background-image: url('../../assets/svg/Mail.svg');
+}
+.icon-web {
+  background-image: url('../../assets/svg/World.svg');
 }

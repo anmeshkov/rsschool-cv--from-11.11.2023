@@ -344,6 +344,10 @@ template {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Variables
    ========================================================================== */
 /* Grid
@@ -395,6 +399,15 @@ h1 {
   line-height: 52px;
 }
 
+h2 {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+
 h4 {
   color: #000000;
   font-family: "Inter", sans-serif;
@@ -441,11 +454,23 @@ a:hover::after {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin-right: 16px;
 }
 
 .icon-location {
   background-image: url("../../assets/svg/location.svg");
-  margin-right: 16px;
+}
+
+.icon-phone {
+  background-image: url("../../assets/svg/Phone.svg");
+}
+
+.icon-mail {
+  background-image: url("../../assets/svg/Mail.svg");
+}
+
+.icon-web {
+  background-image: url("../../assets/svg/World.svg");
 }
 
 .header {
@@ -468,6 +493,10 @@ a:hover::after {
 
 /* Avatar
    ========================================================================== */
+.avatar {
+  border-bottom: 1px solid #D8DEE4;
+  padding: 45px 0;
+}
 .avatar__image {
   margin: 0 auto;
   width: 264px;
@@ -479,6 +508,16 @@ a:hover::after {
   background-repeat: no-repeat;
 }
 
+/* Contacts
+   ========================================================================== */
+.contacts__list {
+  list-style: none;
+  padding: 0;
+}
+.contacts__item {
+  display: inline-flex;
+  align-items: center;
+}
 /* Resume
    ========================================================================== */
 .resume__content {
@@ -602,4 +641,8 @@ a:hover::after {
   align-items: flex-end;
   justify-content: center;
   height: 100%;
+}
+
+.rsscholl a:hover::after {
+  opacity: 0;
 }/*# sourceMappingURL=main.css.map */

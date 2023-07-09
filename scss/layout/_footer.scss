@@ -31,3 +31,7 @@
   justify-content: center;
   height: 100%;
 }
+
+.rsscholl a:hover::after {
+  opacity: 0;
+}

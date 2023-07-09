@@ -18,16 +18,22 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a class="nav__link" href="#">Contact</a>
+            <a class="nav__link" href="#contacts" title="Contact">Contact</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">About Me</a>
+            <a class="nav__link" href="#about" title="About Me">About</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">Skills</a>
+            <a class="nav__link" href="#skils">Skils</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">Experience</a>
+            <a class="nav__link" href="#education" title="Education">Education</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#code" title="Code">Code</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#projects" title="Projects">Projects</a>
           </li>
         </ul>
       </nav>
@@ -41,27 +47,27 @@
     <div class="container grid-2-column">
       <div class="left-column">
         <!-- avatar -->
-        <section class="avatar">
+        <div class="avatar">
           <div class="avatar__image"></div>
-        </section>
+        </div>
         <!-- /avatar -->
 
         <!-- contact -->
-        <section class="contacts">
-          <h4 class="section__title">Contact</h4>
+        <section class="contacts" id="contacts">
+          <h2 class="section__title">Contact</h2>
           <ul class="contacts__list">
-            <li class="contacts__item"><a class="contacts__link" href="tel:+79956180018">+7 995 618 00 18</a></li>
-            <li class="contacts__item"><a class="contacts__link" href="mailto:meshkov.an@mail.ru">meshkov.an@mail.ru</a>
+            <li class="contacts__item"><i class="icon icon-phone"></i><a class="contacts__link" href="tel:+79956180018">+7 995 618 00 18</a></li>
+            <li class="contacts__item"><i class="icon icon-mail"></i><a class="contacts__link" href="mailto:meshkov.an@mail.ru">meshkov.an@mail.ru</a>
             </li>
-            <li class="contacts__item"><a href="https://github.com/anmeshkov" target="_blank"
-                rel="noopener noreferrer">www.github.com/anmeshkov</a></li>
+            <li class="contacts__item"><i class="icon icon-web"></i><a href="https://github.com/anmeshkov" target="_blank"
+                rel="noopener noreferrer">Github.com</a></li>
           </ul>
         </section>
         <!-- /contact -->
 
         <!-- skils -->
-        <section class="skils">
-          <h4 class="section__title">Skils</h4>
+        <section class="skils" id="skils">
+          <h2 class="section__title">Skils</h2>
           <ul>
             <li>HTML/CSS</li>
             <li>Basic JavaScript</li>
@@ -75,7 +81,7 @@
 
         <!-- languages -->
         <section class="languages">
-          <h4 class="section__title">Languages</h4>
+          <h2 class="section__title">Languages</h2>
           <ul>
             <li>Russian - native speaker.</li>
             <li>English - A2 (Pre-intermediate)</li>
@@ -95,8 +101,8 @@
         <!-- resume -->
 
         <!-- about -->
-        <section class="about">
-          <h4 class="section__title">About Me</h4>
+        <section class="about" id="about">
+          <h2 class="section__title">About Me</h2>
           <p class="about__content">Hi!
 
             My&nbsp;name is&nbsp;Andrew. I&nbsp;am a&nbsp;Junior frontend developer, With more than 9&nbsp;years
@@ -111,8 +117,8 @@
         <!-- /about -->
 
         <!-- education -->
-        <section class="education">
-          <h4 class="section__title">Education</h4>
+        <section class="education" id="education">
+          <h2 class="section__title">Education</h2>
           <p>University:</p>
           <ul class="education__list">
             <li class="education__item">Volgograd State Technical University</li>
@@ -136,24 +142,25 @@
         <!-- /education -->
 
         <!-- code -->
-        <section class="code">
-          <h4 class="section__title">Code examples</h4>
+        <section class="code" id="code">
+          <h2 class="section__title">Code examples</h2>
           <!-- code-item -->
           <p class="code__text"><a href="https://www.codewars.com/kata/5a5915b8d39ec5aa18000030" target="_blank"
               rel="noopener noreferrer">1. Find the missing element between two arrays</a></p>
           <pre class="code__pre">
 <code class="code__wrapper">function findMissing(arr1, arr2) {
-    const arr1Sort = arr1.sort((a, b) => a - b);
-    const arr2Sort = arr2.sort((a, b) => a - b);
-    console.log(arr1Sort);
-    console.log(arr2Sort);
+  const arr1Sort = arr1.sort((a, b) => a - b);
+  const arr2Sort = arr2.sort((a, b) => a - b);
+  console.log(arr1Sort);
+  console.log(arr2Sort);
 
-    for (let i = 0; i < arr1Sort.length; i++) {
-        if (arr1Sort[i] != arr2Sort[i]) {
-            return arr1Sort[i];
-        }
-    }
-}</code></pre>
+  for (let i = 0; i &lt; arr1Sort.length; i++) {
+      if (arr1Sort[i] != arr2Sort[i]) {
+          return arr1Sort[i];
+      }
+  }
+}
+</code></pre>
           <!-- /code-item -->
 
           <!-- code-item -->
@@ -164,7 +171,7 @@
     const arrayOfNumbers = [...new Set(numbers.sort((a, b) => b - a))];
     let summ = 0;
     
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i &lt; 3; i++) {
         summ += arrayOfNumbers[i];    
     }
 
@@ -175,8 +182,8 @@
         <!-- /code -->
 
         <!-- projects -->
-        <section class="projects">
-          <h4 class="section__title">Projects</h4>
+        <section class="projects" id="projects">
+          <h2 class="section__title">Projects</h2>
           <ul class="list projects__list">
             <li class="list__item"><a class="list__link" href="https://github.com/anmeshkov/shelter-html-theme"
                 target="_blank" rel="noopener noreferrer" title="Shelter">Shelter</a></li>

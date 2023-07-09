@@ -1,6 +1,8 @@
 /* Avatar
    ========================================================================== */
 .avatar {
+  border-bottom: 1px solid $color-second;
+  padding: 45px 0;
 
   // .avatar__image
   &__image {
